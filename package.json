@@ -1,0 +1,16 @@
+{
+  "name": "js-py-testing",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "verbose": true,
+    "transform": {}
+  },
+  "dependencies": {
+    "jest": "29.7.0",
+    "yaml": "2.4.2"
+  }
+}

@@ -1,0 +1,22 @@
+---
+name: calculator
+suite:
+  - name: add
+    tests:
+      - description: add 1 + 2
+        input:
+          - 1
+          - 2
+        output: 3
+      - description: add 3 + 3
+        input:
+          - 3
+          - 3
+        output: 6
+  - name: subtract
+    tests:
+      - description: subtract 4 - 2
+        input:
+          - 4
+          - 2
+        output: 2
